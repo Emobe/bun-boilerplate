@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "scripts": {
+    "start": "bun src/main.ts",
+    "dev": "nodemon --exec \"bun run\" src/main.ts"
+  },
+  "devDependencies": {
+    "bun-types": "^0.1.3",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "jest": "^28.1.2",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5"
+  }
+}
